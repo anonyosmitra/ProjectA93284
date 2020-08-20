@@ -8,6 +8,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
+    body{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    background-color:#000000;
+    overflow: hidden;
+    }
     .logIn_butt{
     background-color:#006ea9;
   	color: white;
@@ -32,6 +38,19 @@
     padding-left: 50px;
     padding-right: 50px;
     }
+    .errorBox{
+    width:400px;
+    height:max-content;
+    position: fixed;
+    color: #FFFFFF;
+    background-color: #73343a;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 20px;
+    visibility: hidden;
+    }
          </style>
 </head>
 <script>
@@ -50,8 +69,19 @@
     if(bt.style.visibility=="visible")
     bt.style.visibility="hidden";
     }
+    function errBox(bl){
+    if(bl==1)
+        document.getElementById("errorBox").style.visibility="visible";
+    else
+        {
+        document.getElementById("lname").value="";
+        document.getElementById("empId").value="";
+        document.getElementById("pwd").value="";
+        document.getElementById("errorBox").style.visibility="hidden";
+        }
+    }
 </script>
-<body style="background-color:#000000;overflow: hidden;" onload="onLoad()">
+<body onload="onLoad()">
 <div align="center">
     <div align="left" class="mainContainer">
         <h1 align="center" class="textColor"> Sign-in </h1>
@@ -61,7 +91,11 @@
         <input id="empId" class="textFlds" onkeydown="keyD()"> <br>
         <span class="textColor">Password</span><br>
         <input id="pwd" class="textFlds" type="password" onkeydown="keyD()"><br>
-        <input id="logInButton" type="button" class="logIn_butt" value="DONE"/></div>
+        <input id="logInButton" type="button" class="logIn_butt" value="DONE" onclick="errBox(1)"/></div>
+</div>
+<div id="errorBox" class="errorBox">
+    <div align="center"><strong><span class="glyphicon glyphicon-alert"/> Ooops!</strong><button type="button" class="close" style="position: absolute;top: 0;right: 0;color:#FFFFFF; border:0; font-size:50px" aria-label="Close"  onclick="errBox(0)">&times;</button><br></div>
+    Invalid entry.<br>This account does not exist or the password in incorrect.
 </div>
 </body>
 </html>
