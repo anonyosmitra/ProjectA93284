@@ -34,17 +34,34 @@
     }
          </style>
 </head>
-<body style="background-color:#000000;overflow: hidden;">
+<script>
+    function onLoad(){
+    document.getElementById("logInButton").style.visibility="hidden";
+    console.log("loaded");
+    }
+    function keyD(){
+    bt=document.getElementById("logInButton");
+    lname=document.getElementById("lname");
+    empId=document.getElementById("empId");
+    pwd=document.getElementById("pwd");
+    if(lname.value!="" && empId.value!="" && pwd.value!="")
+        bt.style.visibility="visible";
+    else
+    if(bt.style.visibility=="visible")
+    bt.style.visibility="hidden";
+    }
+</script>
+<body style="background-color:#000000;overflow: hidden;" onload="onLoad()">
 <div align="center">
     <div align="left" class="mainContainer">
         <h1 align="center" class="textColor"> Sign-in </h1>
         <span class="textColor">Last Name</span><br>
-        <input class="textFlds"> <br>
+        <input id="lname" class="textFlds" onkeydown="keyD()"> <br>
         <span class="textColor">Employee Id#</span><br>
-        <input class="textFlds"> <br>
+        <input id="empId" class="textFlds" onkeydown="keyD()"> <br>
         <span class="textColor">Password</span><br>
-        <input class="textFlds" type="password"><br>
-        <input type="button" class="logIn_butt" value="DONE"/></div>
+        <input id="pwd" class="textFlds" type="password" onkeydown="keyD()"><br>
+        <input id="logInButton" type="button" class="logIn_butt" value="DONE"/></div>
 </div>
 </body>
 </html>
