@@ -25,12 +25,12 @@ function errBox(bl){
         }
     }
 function focused(id){
-    document.getElementById(id).style.backgroundColor = "464346";
-    document.getElementById(id).style.color = "white";
-    document.getElementById(id+"_tit").style.color = "white";
+    document.getElementById(id).style.backgroundColor = "#383838";
+    document.getElementById(id).style.color = "#E0E0E0";
+    document.getElementById(id+"_tit").style.color = "#E0E0E0";
 }
 function unFocused(id){
-    document.getElementById(id).style.backgroundColor = "#1c1920";
-    document.getElementById(id).style.color = "#a09fa0";
-    document.getElementById(id+"_tit").style.color = "#9f9d9f ";
+    document.getElementById(id).style.backgroundColor = "#252525";
+    document.getElementById(id).style.color = "#A0A0A0";
+    document.getElementById(id+"_tit").style.color = "#A0A0A0 ";
 }

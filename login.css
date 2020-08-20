@@ -5,8 +5,8 @@ body{
     overflow: hidden;
     }
     .logIn_butt{
-    background-color:#006ea9;
-  	color: white;
+    background-color:#1377b0;
+  	color: #e0e0e0;
     border: none;
     visibility: visible;
     margin:auto;
@@ -14,17 +14,17 @@ body{
     }
     .textFlds{
     margin-bottom:10px;
-    background-color: #1c1920;
-  	color: #a09fa0;
+    background-color: #252525;
+  	color: #A0A0A0;
     border:0;
     }
     .textColor{
-    color:#9f9d9f;
+    color:#A0A0A0;
     }
     .mainContainer{
     width: max-content;
     height: 1000px;
-    background-color:#231e2a;
+    background-color:#121212;
     padding-left: 50px;
     padding-right: 50px;
     }
