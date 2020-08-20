@@ -7,90 +7,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-    body{
-    font-family: 'Montserrat';
-    font-size: 22px;
-    background-color:#000000;
-    overflow: hidden;
-    }
-    .logIn_butt{
-    background-color:#006ea9;
-  	color: white;
-    border: none;
-    visibility: visible;
-    margin:auto;
-    display:block;
-    }
-    .textFlds{
-    margin-bottom:10px;
-    background-color: #464346;
-  	color: #a09fa0;
-    border:0;
-    }
-    .textColor{
-    color:#9f9d9f;
-    }
-    .mainContainer{
-    width: max-content;
-    height: 1000px;
-    background-color:#272627;
-    padding-left: 50px;
-    padding-right: 50px;
-    }
-    .errorBox{
-    width:400px;
-    height:max-content;
-    position: fixed;
-    color: #FFFFFF;
-    background-color: #73343a;
-    top: 50%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -100px;
-    padding: 20px;
-    visibility: hidden;
-    }
-         </style>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css">
 </head>
-<script>
-    function onLoad(){
-    document.getElementById("logInButton").style.visibility="hidden";
-    console.log("loaded");
-    }
-    function keyD(){
-    bt=document.getElementById("logInButton");
-    lname=document.getElementById("lname");
-    empId=document.getElementById("empId");
-    pwd=document.getElementById("pwd");
-    if(lname.value!="" && empId.value!="" && pwd.value!="")
-        bt.style.visibility="visible";
-    else
-    if(bt.style.visibility=="visible")
-    bt.style.visibility="hidden";
-    }
-    function errBox(bl){
-    if(bl==1)
-        document.getElementById("errorBox").style.visibility="visible";
-    else
-        {
-        document.getElementById("lname").value="";
-        document.getElementById("empId").value="";
-        document.getElementById("pwd").value="";
-        document.getElementById("errorBox").style.visibility="hidden";
-        }
-    }
-</script>
 <body onload="onLoad()">
 <div align="center">
     <div align="left" class="mainContainer">
         <h1 align="center" class="textColor"> Sign-in </h1>
-        <span class="textColor">Last Name</span><br>
-        <input id="lname" class="textFlds" onkeydown="keyD()"> <br>
-        <span class="textColor">Employee Id#</span><br>
-        <input id="empId" class="textFlds" onkeydown="keyD()"> <br>
-        <span class="textColor">Password</span><br>
-        <input id="pwd" class="textFlds" type="password" onkeydown="keyD()"><br>
+        <span id="lname_tit" class="textColor">Last Name</span><br>
+        <input id="lname" class="textFlds" onkeydown="keyD()" onfocus="focused('lname')" onfocusout="unFocused('lname')"> <br>
+        <span id="empId_tit" class="textColor">Employee Id#</span><br>
+        <input id="empId" class="textFlds" onkeydown="keyD()" onfocus="focused('empId')" onfocusout="unFocused('empId')"> <br>
+        <span id="pwd_tit" class="textColor">Password</span><br>
+        <input id="pwd" class="textFlds" type="password" onkeydown="keyD()" onfocus="focused('pwd')" onfocusout="unFocused('pwd')"><br>
         <input id="logInButton" type="button" class="logIn_butt" value="DONE" onclick="errBox(1)"/></div>
 </div>
 <div id="errorBox" class="errorBox">

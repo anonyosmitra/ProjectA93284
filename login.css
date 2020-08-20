@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    background-color:#000000;
+    overflow: hidden;
+    }
+    .logIn_butt{
+    background-color:#006ea9;
+  	color: white;
+    border: none;
+    visibility: visible;
+    margin:auto;
+    display:block;
+    }
+    .textFlds{
+    margin-bottom:10px;
+    background-color: #1c1920;
+  	color: #a09fa0;
+    border:0;
+    }
+    .textColor{
+    color:#9f9d9f;
+    }
+    .mainContainer{
+    width: max-content;
+    height: 1000px;
+    background-color:#231e2a;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    .errorBox{
+    width:400px;
+    height:max-content;
+    position: fixed;
+    color: #FFFFFF;
+    background-color: #73343a;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 20px;
+    visibility: hidden;
+    }
