@@ -4,24 +4,52 @@ body{
     background-color:#000000;
     overflow: hidden;
     }
+    .tit{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #A0A0A0;
+    }
     .logIn_butt{
-    background-color:#1377b0;
-  	color: #e0e0e0;
-    border: none;
     visibility: visible;
     margin:auto;
     display:block;
+    background: #1377b0;
+    border: none;
+    font-family: "Montserrat";
+    padding: 6px 20px;
+    border-radius: 2px;
+    color: #e0e0e0;
+    font-weight: 700;
+    height: 34.5px;
+    letter-spacing: 1.08px;
+    font-size: 16px
     }
     .textFlds{
-    margin-bottom:10px;
-    background-color: #252525;
-  	color: #A0A0A0;
-    border:0;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: 40px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    background-color:#252525;
+    color:A0A0A0;
+    margin-bottom: 10px;
     }
     .textColor{
+    font-family: "Montserrat";
     color:#A0A0A0;
     }
     .mainContainer{
+    margin-top: 50px;
+    padding-top: 50px;
     width: max-content;
     height: 1000px;
     background-color:#121212;
@@ -35,7 +63,7 @@ body{
     color: #FFFFFF;
     background-color: #73343a;
     top: 50%;
-    left: 45%;
+    left: 40%;
     margin-top: -100px;
     margin-left: -100px;
     padding: 20px;

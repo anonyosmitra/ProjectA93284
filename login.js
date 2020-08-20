@@ -1,6 +1,5 @@
 function onLoad(){
     document.getElementById("logInButton").style.visibility="hidden";
-    console.log("loaded");
     }
 function keyD(){
     bt=document.getElementById("logInButton");
@@ -22,6 +21,7 @@ function errBox(bl){
         document.getElementById("empId").value="";
         document.getElementById("pwd").value="";
         document.getElementById("errorBox").style.visibility="hidden";
+        document.getElementById("logInButton").style.visibility="hidden";
         }
     }
 function focused(id){
