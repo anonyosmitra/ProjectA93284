@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <script src="timePage.js"></script>
+    <link rel="stylesheet" href="timePage.css">
+</head>
+<body onload="onLoad()">
+    <div class="info" id="infoBox">Please ensure the time is accurate</div>
+    <div align="left" class="mainContainer">
+        <div><h1 align="center" class="textColor" style="display: inline-block;"><b>Time of Day</b></h1><span onclick="showInfo()" class="infoIcon" style="font-size: 14px;display: inline-block;color:#7d5145"><b>i</b></span></div>
+        <div id="timeQuest">
+        <div align="center" style="margin-top:50px;"><b class="tit">Is it <span id="questTime"></span> right now?</b></div>
+        <div align="center" style="margin-top:40px;">
+            <div class="checkBoxContainer"><div id="cbY" class="checkBox" onclick="setCb('Y')"><div class="verCent" id="cY"></div></div>Yes</div>
+            <div class="checkBoxContainer"><div id="cbN" class="checkBox" onclick="setCb('N')"><div class="verCent" id="cN"></div></div>No</div>
+        </div></div>
+        <div style="visibility:hidden;" id="timeEdit">
+            <div align="center" style="margin-top:50px;"><b class="tit">Adjust Current Time</b></div>
+            <div style="margin-top:40px; width:100%;">
+                <input type="button" class="edit" value="-" style="margin-right:2%" onclick='editTime("dec")'/>
+                <input type="number" class="time" id="hr" style="text-align: right;width:35px;" onclick="choose('hr')"/>
+                <span style="color:#FFFFFF;display: inline-block;">:</span>
+                <input id="min" type="number" class="time"  onclick="choose('min');"/>
+                <input type="button" id="ampm" class="time" style="width:42px;display: inline-block;"  onclick='choose("ampm")'/>
+                <input type="button" class="edit" value="+" style="margin-left:3%" onclick='editTime("inc")'/></div>
+            <div id="editMsg" align="center" style="margin-top:20px;"><b class="tit">TAP on value to select</b></div>
+            <input id="doneButt" type="button" class="done_butt" value="DONE"/>
+        </div>
+    </div>
+</body>
+</html>
