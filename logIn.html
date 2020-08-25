@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
-    <script src="login.js"></script>
-    <link rel="stylesheet" href="Style.css">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+	<script src="login.js"></script>
+	<link rel="stylesheet" href="Style.css">
 </head>
 <body onload="onLoad()">
 <div align="center">
-    <div align="left" class="mainContainer">
-        <h1 align="center" class="textColor"><b>Sign-in</b> </h1>
-        <span id="lname_tit" class="tit">LAST Name</span><br>
-        <input id="lname" class="textFlds" onkeydown="keyD()" onfocus="focused('lname')" onfocusout="unFocused('lname')"> <br>
-        <span id="empId_tit" class="tit">Employee ID #</span><br>
-        <input id="empId" class="textFlds" onkeydown="keyD()" onfocus="focused('empId')" onfocusout="unFocused('empId')"> <br>
-        <span id="pwd_tit" class="tit">Password</span><br>
-        <input id="pwd" class="textFlds" type="password" onkeydown="keyD()" onfocus="focused('pwd')" onfocusout="unFocused('pwd')"><br>
-        <input id="logInButton" type="button" class="logIn_butt" value="DONE" onclick="errBox(1)"/></div>
+	<div align="left" class="mainContainer">
+		<h1 align="center" class="textColor"><b>Sign-in</b> </h1>
+		<span id="lname_tit" class="tit">LAST Name</span><br>
+		<input id="lname" class="textFlds" onkeydown="keyD()" onfocus="focused('lname')" onfocusout="unFocused('lname')"> <br>
+		<span id="empId_tit" class="tit">Employee ID #</span><br>
+		<input id="empId" class="textFlds" onkeydown="keyD()" onfocus="focused('empId')" onfocusout="unFocused('empId')"> <br>
+		<span id="pwd_tit" class="tit">Password</span><br>
+		<input id="pwd" class="textFlds" type="password" onkeydown="keyD()" onfocus="focused('pwd')" onfocusout="unFocused('pwd')"><br>
+		<input id="logInButton" type="button" class="logIn_butt" value="DONE" onclick="errBox(1)"/></div>
 </div>
 <div id="errorBox" class="errorBox">
-    <div align="center"><strong><span class="glyphicon glyphicon-alert"></span> Ooops!</strong><button type="button" class="close" style="position: absolute;top: 0;right: 0;color:#FFFFFF; border:0; font-size:50px" aria-label="Close"  onclick="errBox(0)">&times;</button><br></div>
-    Invalid entry.<br>This account does not exist or the password in incorrect.
+	<div align="center"><strong><span class="glyphicon glyphicon-alert"></span> Ooops!</strong><button type="button" class="close" style="position: absolute;top: 0;right: 0;color:#FFFFFF; border:0; font-size:50px" aria-label="Close"  onclick="errBox(0)">&times;</button><br></div>
+	Invalid entry.<br>This account does not exist or the password in incorrect.
 </div>
 </body>
 </html>
