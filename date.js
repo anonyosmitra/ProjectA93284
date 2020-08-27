@@ -17,6 +17,10 @@ function CalDates(){
 		dt.setDate(dt.getDate() + 1);
 		$("#D_1"+i).datepicker()[0].value=dtToStr(dt);
 	}
+	var dv=document.getElementsByTagName("div");
+	for(var i=0; i<dv.length; i++)
+    if(dv[i].classList.value=="tit")
+    console.log(dv[i].innerText);
 }
 function strToDate(str){
 	var dt=new Date(str.substring(6,10)+'-'+str.substring(3,5)+'-'+str.substring(0,2));
