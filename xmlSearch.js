@@ -15,7 +15,6 @@ function search() {
 	document.getElementById("count").innerText="   "+count+" Results Found For \""+qr+"\" ";
 }
 function postResult(fd){
-	console.log(fd.innerHTML);
 	var cols=["id","title","description","location","userId","name","url","likeCount"];
 	var row="";
 	for(var i=0;i<cols.length;i++){
