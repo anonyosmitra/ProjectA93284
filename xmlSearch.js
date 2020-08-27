@@ -3,6 +3,7 @@ function search() {
 	var xml=document.getElementById("XMLdata");
 	var count=0;
 	var fd=xml.getElementsByTagName("feeds");
+	document.getElementById("results").innerHTML="<tr><th>Id</th><th>Title</th><th>Description</th><th>Location</th><th>User Id</th><th>Name</th><th>URL</th><th>Likes</th></tr>"
 	for(var i=0;i<fd.length;i++)
 	{
 		if((fd[i].innerHTML.toLowerCase()).includes(qr.toLowerCase()))
@@ -11,6 +12,7 @@ function search() {
 			postResult(fd[i]);
 		}
 	}
+	document.getElementById("count").innerText="   "+count+" Results Found For \""+qr+"\" ";
 }
 function postResult(fd){
 	console.log(fd.innerHTML);
