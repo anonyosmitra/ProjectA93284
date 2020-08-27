@@ -6,7 +6,7 @@ function search() {
 	document.getElementById("results").innerHTML="<tr><th>Id</th><th>Title</th><th>Description</th><th>Location</th><th>User Id</th><th>Name</th><th>URL</th><th>Likes</th></tr>"
 	for(var i=0;i<fd.length;i++)
 	{
-		if((fd[i].innerHTML.toLowerCase()).includes(qr.toLowerCase()))
+		if(((fd[i].innerHTML.replace(/<[^>]*>/g, '')).toLowerCase()).includes(qr.toLowerCase()))
 		{
 			count++;
 			postResult(fd[i]);
