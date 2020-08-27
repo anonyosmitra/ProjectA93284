@@ -1,43 +1,38 @@
 function search() {
-    var xmlhttp = new window.XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            query(this);
-        }
-    };
-    xmlhttp.open("GET", "xmlData.xml", true);
-    xmlhttp.send();
+	var qr=document.getElementById("search").value;
+	var xml=document.getElementById("XMLdata");
+	var count=0;
+	var fd=xml.getElementsByTagName("feeds");
+	for(var i=0;i<fd.length;i++)
+	{
+		if((fd[i].innerHTML.toLowerCase()).includes(qr.toLowerCase()))
+		{
+			count++;
+			postResult(fd[i]);
+		}
+	}
 }
-function query(xml) {
-    var xmlDoc = xml.responseXML;
-    fd = xmlDoc.getElementsByTagName("feeds");
-    var c=0;
-    for(var i=0;i<fd.length;i++)
-    {
-        if((fd[i].innerText).includes("berlin"))
-        {
-            c++;
-            console.log(fd[i]);
-        }
-    }
-	console.log("Count: "+c);
+function postResult(fd){
+	console.log(fd.innerHTML);
+	var cols=["id","title","description","location","userId","name","url","likeCount"];
+	var row="";
+	for(var i=0;i<cols.length;i++){
+		row+="<td>"+fd.getElementsByTagName(cols[i])[0].innerHTML+"</td>";
+	}
+	document.getElementById("results").innerHTML+="<tr>"+row+"</tr>";
+
 }
-function findBooks() {
-   var myXML, myNodes;
-   var display="";
-   myXML= document.all("books").XMLDocument;
-   //Put the <name> element into an object.
-   myNodes=myXML.getElementsByTagName("name");
-   //Extract the different values using a loop.
-   for(var counter=0;counter<myNodes.length;counter++) {
-      display += myNodes.item(counter).firstChild.nodeValue +
-"\n";
-   }
-   document.show.me.value=display;
+var  methods={"search":search};
+function onLoad(){
+	onEnter({"div":"search","fun":"search"});
 }
-function testPars(){
-var xmlDoc = new ActiveXObject("Microsoft.XMLDOM")
-xmlDoc.async="false"
-xmlDoc.load("xml")
-// ....... processing the document goes here
-}
+function onEnter(arg)
+{
+	var div = document.getElementById(arg["div"]);
+	div.addEventListener("keyup", function(event) {
+ 	event.preventDefault();
+ 	if (event.keyCode === 13) {
+    methods[arg["fun"]]();}
+	else if("keyD" in arg){
+	methods[arg["keyD"]]();}});
+		}
