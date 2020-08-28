@@ -8,7 +8,6 @@ function postQuery(req) {
    sql.connect(config);
    var request = new sql.Request();
    request.query(qr);
-   sql.close();
 }
 var config = {
         user: 'client',
