@@ -7,9 +7,9 @@ function postQuery(req) {
    console.log(qr);
    query(qr);
 }
-async function query(){
+async function query(qr){
     var pool = await sql.connect(config);
-    var data = await pool.request().query('select * from people', function (err, recordset) {
+    var data = await pool.request().query(qr, function (err, recordset) {
                 console.log(recordset);});
     pool.close;
     sql.close;
