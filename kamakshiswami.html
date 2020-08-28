@@ -59,15 +59,16 @@
 
 
 <script language="javascript">
-   var http = new XMLHttpRequest();
-		http.onreadystatechange = function () {
-			if (this.readyState == 4 && this.status == 200) {
-			var data = JSON.parse(this.response);
-			console.log(data);}};
+    var http = new XMLHttpRequest();
+    http.onreadystatechange = function () {
+        if (http.readyState === 4 && http.status === 200) {
+            console.log(this.responseText);
+    }};
 function submit(){
-	var data={"fName":document.getElementById("txtfName").value,"lName":document.getElementById("txtlName").value,"mobile":document.getElementById("txtMobileNo").value,"city":document.getElementById("txtCity").value};
-	http.open('POST',"http://127.0.0.1:3000/postDetails";
-	http.setRequestHeader("Content-Type","application/json;charset=UTF-8");
-	http.send(JSON.stringify(data));}
+	var data=JSON.stringify({"fName":document.getElementById("txtfName").value,"lName":document.getElementById("txtlName").value,"mobile":document.getElementById("txtMobileNo").value,"city":document.getElementById("txtCity").value});
+	console.log(data);
+	http.open('POST',"http://127.0.0.1:3000/postDetails",true);
+	http.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	http.send(data);}
 </script>
 </body></html>
