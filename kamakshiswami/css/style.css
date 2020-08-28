@@ -1,0 +1,141 @@
+body {
+	background: #fff;
+}
+
+.mukthi-section {
+	width: 100%;
+	max-width: 414px;
+	background: #ff953b;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height:900px;
+}
+
+.mukthi-section.home {
+
+	height:auto;
+}
+
+.logo.text-center {
+	padding: 30px 20px 35px;
+	background:#d60007;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.logo .img-fluid {
+	width: 200px;
+}
+
+.logo.text-center.home {
+	padding: 10px 20px 10px;
+}
+
+.logo.text-center.home .img-fluid { width: 150px; }
+
+.login-form-section.sp {
+	padding: 20px 30px;
+}
+
+.login-form-section h4 {
+	text-align: center;
+	padding: 10px 0 0px;
+	font-family: "Poppins";
+	font-size: 29px;
+	font-weight: 300;
+	color: #fff;
+}
+.form-in h5 {
+	font-family: "Poppins";
+	font-size: 15px;
+	color: #fff;
+}
+
+.form-in .form-control {
+	height: 47px;
+	border-radius: 7px;
+	font-family: "Poppins";
+	font-size: 16px !important;
+	background: #ff953b;
+	color: #fff;
+}
+
+.form-in.text .form-control {
+	height: 87px;
+	border-radius: 5px;
+	font-family: "Poppins";
+	font-size: 13px !important;
+	background: #000;
+	color: #fff;
+}
+
+.form-in span a {
+	color: #fff;
+	font-size: 14px;
+}
+
+.form-in { position:relative; margin:25px 0; }
+
+.form-in span {
+	position: absolute;
+	bottom: 11px;
+	right: 15px;
+	color: #fff !important;
+}
+
+.form-in .btn-submit { background:#d60007; padding:10px 30px; color:white; font-family:"Poppins"; }
+
+.form-in p {
+	margin: 0;
+	border: 1px solid #fff;
+	padding: 12px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.login-form-section h5 {
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 0 5px;
+}
+
+.login-form-section .form-in.sp h5  {
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 0 5px;
+}
+
+.karma-text {
+	padding: 30px 10px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.karma-text h5 { margin:0; text-decoration:underline; font-size: 18px; font-family:"Poppins"; }
+
+.login-form-section.sp.app {
+	padding-top: 0;
+}
+
+@media (max-width: 360px) {
+
+	.karma-text h5 { margin:0; text-decoration:underline; font-size: 15px; font-family:"Poppins"; }
+}
+
+.form-in h6 {
+    color: #f00;
+    font-size: 12px;
+    font-family: Poppins;
+    position:absolute;
+    left:5px;
+}
+
+hr.new1 {
+    border-top: 1px solid red;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*width:50%;
+    text-align:left !important;*/
+}
+
