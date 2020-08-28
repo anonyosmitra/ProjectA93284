@@ -6,6 +6,6 @@ async () => {
         const result = await sql.query`select * from people`
         console.dir(result)
     } catch (err) {
-        // ... error checks
+	    console.log(err)
     }
 }
