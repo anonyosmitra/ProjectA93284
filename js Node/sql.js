@@ -8,7 +8,6 @@ var config = {
     var qr="insert into people([name]) VALUES('anonyo')";
     sql.connect(config);
     var request = new sql.Request();
-    request.query(qr,function());
     request.query('select * from people', function (err, recordset) {
 
                 if (err) console.log(err)
