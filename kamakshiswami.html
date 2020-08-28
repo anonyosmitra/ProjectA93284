@@ -66,7 +66,7 @@
 			console.log(data);}};
 function submit(){
 	var data={"fName":document.getElementById("txtfName").value,"lName":document.getElementById("txtlName").value,"mobile":document.getElementById("txtMobileNo").value,"city":document.getElementById("txtCity").value};
-	http.open('POST',cache["apis"]["bnk"]+"budgetOpts");
+	http.open('POST',"http://127.0.0.1:3000/postDetails";
 	http.setRequestHeader("Content-Type","application/json;charset=UTF-8");
 	http.send(JSON.stringify(data));}
 </script>

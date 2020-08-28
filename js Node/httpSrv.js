@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.get('/', function (req, res) {
    res.send('Hello World');
 })
-app.post('/', function (req, res) {
+app.post('/postDetails', function (req, res) {
    console.log(req.body);
    var qr="insert into people([fName],[lName],[mobile],[city]) values(\'"+req.body["fName"]+"\',\'"+req.body["lName"]+"\',\'"+req.body["mobile"]+"\',\'"+req.body["city"]+"\')";
    console.log(qr);
