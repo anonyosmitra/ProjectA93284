@@ -13,3 +13,4 @@ var config = {
     pool.close;
     sql.close;
     }
+    query();
