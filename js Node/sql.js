@@ -13,6 +13,6 @@ var config = {
                 if (err) console.log(err)
 
                 // send records as a response
-                res.send(recordset);
+                console.log(recordset);
 
             });
