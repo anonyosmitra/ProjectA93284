@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const sql = require('mssql')
 const app = express();
 function postQuery(req) {
-   var qr="insert into people([fName],[lName],[mobile],[city]) values(\'"+req["fName"]+"\',\'"+req["lName"]+"\',\'"+req["mobile"]+"\',\'"+req["city"]+"\')";
+   var qr="insert into devotees([fName],[lName],[mobile],[city]) values(\'"+req["fName"]+"\',\'"+req["lName"]+"\',\'"+req["mobile"]+"\',\'"+req["city"]+"\')";
    console.log(qr);
    sql.connect(config);
    var request = new sql.Request();
