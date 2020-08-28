@@ -1,4 +1,4 @@
-const sql = require('mssql')
+var sql = require('mssql')
 var config = {
         user: 'client',
         password: 'client5',
@@ -6,13 +6,8 @@ var config = {
         database: 'test'
     };
     var qr="insert into people([name]) VALUES('anonyo')";
-    sql.connect(config);
-    var request = new sql.Request();
-    request.query('select * from people', function (err, recordset) {
-
-                if (err) console.log(err)
-
-                // send records as a response
-                console.log(recordset);
-
-            });
+    var pool = await sql.connect(config);
+    var data = await pool.request().query('select * from people', function (err, recordset) {
+                console.log(recordset);});
+    pool.close;
+    sql.close;
