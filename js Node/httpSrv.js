@@ -5,10 +5,15 @@ const app = express();
 function postQuery(req) {
    var qr="insert into devotees([fName],[lName],[mobile],[city]) values(\'"+req["fName"]+"\',\'"+req["lName"]+"\',\'"+req["mobile"]+"\',\'"+req["city"]+"\')";
    console.log(qr);
-   sql.connect(config);
-   var request = new sql.Request();
-   request.query(qr);
+   query(qr);
 }
+async function query(){
+    var pool = await sql.connect(config);
+    var data = await pool.request().query('select * from people', function (err, recordset) {
+                console.log(recordset);});
+    pool.close;
+    sql.close;
+    }
 var config = {
         user: 'client',
         password: 'client5',
