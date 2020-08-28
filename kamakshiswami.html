@@ -52,108 +52,22 @@
 			<h6><label id="lblCity"></label> </h6>
 		</div>
 		<div class="form-in">
-			<a onclick="VerifyOTP()" class="btn btn-submit">Submit</a>
+			<a onclick="submit()" class="btn btn-submit">Submit</a>
 		</div>
 	</div>
 </div>
 
 
 <script language="javascript">
-    var baseUrl = 'kamakshiswami/';
-
-    if ("" != "") {
-        alert("Application submit successfully. Your order number ''");
-    }
-
-    function GetOTP() {
-        document.getElementById("hdnNewUser").value = "Yes";
-        txtMobileNo = document.getElementById("txtMobileNo").value;
-
-        document.getElementById("lblMobileNo").innerText = "";
-        document.getElementById("lblOTP").innerText = "";
-
-        if (txtMobileNo == "") {
-            document.getElementById("lblMobileNo").innerText = "Required field."
-            return false;
-        }
-
-        if (txtMobileNo.length != 10) {
-            document.getElementById("lblMobileNo").innerText = "Enter 10 digit mobile number."
-            return false;
-        }
-
-        //alert(txtMobileNo);
-        try {
-            $.ajax({
-                type: 'GET',
-                url: baseUrl + "Home/GetMobileOTP?MobileNo=" + txtMobileNo,
-                contentType: 'application/json; charset=utf-8',
-                dataType: "json",
-                async: false,
-                success: function (result) {
-                    console.log(result.result);
-                    debugger;
-                    try {
-                        //alert(result.result.OTP);
-                        document.getElementById("txtOTP").value = result.result.OTP;
-                        if (result != "" && result.result.FName !== "") {
-                            document.getElementById("hdnNewUser").value = "No";
-                            //alert(result.result.TestLocationMapImage);
-                        }
-                    } catch (err) { }
-                }
-            });
-        } catch (err) { }
-
-    }
-
-    function VerifyOTP() {
-
-        txtMobileNo = document.getElementById("txtMobileNo").value;
-        txtOTP = document.getElementById("txtOTP").value;
-
-        document.getElementById("lblMobileNo").innerText = "";
-        document.getElementById("lblOTP").innerText = "";
-
-        if (txtMobileNo == "") {
-            document.getElementById("lblMobileNo").innerText = "Required field."
-            return false;
-        }
-
-        if (txtOTP == "") {
-            document.getElementById("lblOTP").innerText = "Required field."
-            return false;
-        }
-
-        try {
-            $.ajax({
-                type: 'GET',
-                url: baseUrl + "Home/VeryfyOTP?OTP=" + txtOTP,
-                contentType: 'application/json; charset=utf-8',
-                dataType: "json",
-                async: false,
-                success: function (result) {
-                    console.log(result.result);
-                    debugger;
-                    try {
-                        if (result.result == "1") {
-                            if (document.getElementById("hdnNewUser").value == "Yes") {
-                                window.location = baseUrl + "Home/Signup";
-                            }
-                            else {
-                                window.location = baseUrl + "Home/Application";
-                            }
-                        }
-                        else {
-                            document.getElementById("lblOTP").innerText = "Invalid OTP."
-                            return false;
-                        }
-                    } catch (err) { }
-                }
-            });
-        } catch (err) { }
-
-    }
+   var http = new XMLHttpRequest();
+		http.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+			var data = JSON.parse(this.response);
+			console.log(data);}};
+function submit(){
+	var data={"fName":document.getElementById("txtfName").value,"lName":document.getElementById("txtlName").value,"mobile":document.getElementById("txtMobileNo").value,"city":document.getElementById("txtCity").value};
+	http.open('POST',cache["apis"]["bnk"]+"budgetOpts");
+	http.setRequestHeader("Content-Type","application/json;charset=UTF-8");
+	http.send(JSON.stringify(data));}
 </script>
-
-<iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe></body></html>
+</body></html>
