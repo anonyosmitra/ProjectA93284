@@ -31,12 +31,12 @@
 }
 .form-in h5 {
 	font-family: "Poppins";
-	font-size: 50px;
+	font-size: 20px;
 	color: #fff;
 }
 
 .form-in .form-control {
-	height: 100px;
+	height: 50px;
 	border-radius: 7px;
 	font-family: "Poppins";
 	font-size: 16px !important;
@@ -101,31 +101,14 @@
 
 .login-form-section h5 {
 	color: #fff;
-	font-size: 40px;
+	font-size: 20px;
 	padding: 10px 0 5px;
 }
 
 .login-form-section .form-in.sp h5  {
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0px 0 5px;
-}
-
-.karma-text {
-	padding: 30px 10px 0;
-	text-align: center;
-	color: #fff;
-}
-
-.karma-text h5 { margin:0; text-decoration:underline; font-size: 18px; font-family:"Poppins"; }
-
-.login-form-section.sp.app {
-	padding-top: 0;
-}
-
-@media (max-width: 360px) {
-
-	.karma-text h5 { margin:0; text-decoration:underline; font-size: 15px; font-family:"Poppins"; }
 }
 
 .form-in h6 {

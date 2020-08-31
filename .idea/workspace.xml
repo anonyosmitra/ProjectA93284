@@ -22,7 +22,113 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="471ea423-daa8-407a-93f3-3ce99ae34d2d" name="Default Changelist" comment="&quot;A&quot;" />
+    <list default="true" id="471ea423-daa8-407a-93f3-3ce99ae34d2d" name="Default Changelist" comment="&quot;A&quot;">
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/myWebApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/staticwebassets/myWebApp.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/staticwebassets/myWebApp.StaticWebAssets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/myWebApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/myWebApp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/myWebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/js/boot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/js/boot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kamakshiswami/js/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/js/owl.carousel.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,12 +172,13 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js Node" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myWebApp/wwwroot" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kamakshiswami/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js Node" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -314,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598854702060</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="&quot;A&quot;">
+      <created>1598854965371</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598854965371</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -344,10 +458,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="130" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1597907202967" />
-    <state x="658" y="355" width="594" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598610558639">
+    <state x="658" y="355" width="685" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598861071375">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="658" y="355" width="594" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1598610558639" />
+    <state x="658" y="355" width="685" height="417" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1598861071375" />
     <state x="643" y="290" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598421711713">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -372,10 +486,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1598520919965" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598848063283">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598854972861">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598848063283" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598854972861" />
     <state x="614" y="214" width="682" height="686" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598621727379">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
