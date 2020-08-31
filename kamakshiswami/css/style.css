@@ -84,7 +84,12 @@ body {
 	color: #fff !important;
 }
 
-.form-in .btn-submit { background:#d60007; padding:10px 30px; color:white; font-family:"Poppins"; }
+.form-in .btn-submit {
+	background:#d60007;
+	padding:10px 30px;
+	color:white;
+	font-family:"Poppins";
+	font-size:15px}
 
 .form-in p {
 	margin: 0;
