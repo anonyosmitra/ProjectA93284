@@ -22,53 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="471ea423-daa8-407a-93f3-3ce99ae34d2d" name="Default Changelist" comment="&quot;A&quot;">
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/Newtonsoft.Json.12.0.3.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net20/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net35/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net40/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net45/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard1.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/netstandard2.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/Newtonsoft.Json.12.0.3/packageIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/myWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/myWebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/myWebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/myWebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/project.nuget.cache" afterDir="false" />
-    </list>
+    <list default="true" id="471ea423-daa8-407a-93f3-3ce99ae34d2d" name="Default Changelist" comment="&quot;A&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598863318679</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="&quot;A&quot;">
+      <created>1598872325216</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598872325216</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -436,10 +397,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1598520919965" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598863324795">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598872331308">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598863324795" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598872331308" />
     <state x="614" y="214" width="682" height="686" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598621727379">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
