@@ -23,21 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471ea423-daa8-407a-93f3-3ce99ae34d2d" name="Default Changelist" comment="&quot;A&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myWebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/bin/Debug/netcoreapp3.1/myWebApp.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/wwwroot/kamakshiswami/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myWebApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598873019684</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="&quot;A&quot;">
+      <created>1598937718014</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1598937718014</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -420,10 +414,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1598520919965" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598873033953">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598937724312">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598873033953" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598937724312" />
     <state x="614" y="214" width="682" height="686" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598621727379">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

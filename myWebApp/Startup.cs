@@ -60,7 +60,7 @@ namespace myWebApp
                     string connetionString = null;
                     SqlConnection cnn ;
                     SqlCommand com ;
-                    connetionString = "Data Source=localhost;Initial Catalog=ShaktiValam;User ID=client;Password=client5";//dbServer address,databasename,user,password
+                    connetionString = "Data Source=localhost;Initial Catalog=ShakthiValam;User ID=client;Password=client5";//dbServer address,databasename,user,password
                     cnn = new SqlConnection(connetionString);
                     try
                     {
