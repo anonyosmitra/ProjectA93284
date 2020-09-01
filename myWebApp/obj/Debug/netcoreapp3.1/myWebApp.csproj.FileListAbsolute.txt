@@ -35,7 +35,6 @@
 /home/andro/ProjectA93284/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.genruntimeconfig.cache
 /home/andro/ProjectA93284/myWebApp/obj/Debug/netcoreapp3.1/myWebApp.csproj.CopyComplete
 /home/andro/ProjectA93284/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/home/andro/ProjectA93284/myWebApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.xml
 /home/andro/ProjectA93284/myWebApp/bin/Debug/netcoreapp3.1/Microsoft.Win32.Registry.dll
 /home/andro/ProjectA93284/myWebApp/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
 /home/andro/ProjectA93284/myWebApp/bin/Debug/netcoreapp3.1/System.Security.AccessControl.dll

@@ -71,7 +71,7 @@
 @media only screen and (max-width: 600px) {
   body{
     width:100%;
-  }
+  }}
 .mainContainer{
 	position: absolute;
 	left: 0;
@@ -127,5 +127,12 @@ hr.new1 {
     padding-bottom: 0px;
     /*width:50%;
     text-align:left !important;*/
+}
+.header-title{
+	font-weight: bold;
+    color: White;
+    margin: 0;
+    line-height: 1.42857143;
+    font-family: 'Montserrat', sans-serif;
 }
 
